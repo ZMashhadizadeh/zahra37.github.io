@@ -1,0 +1,13 @@
+
+@import url("font.css");
+* {
+    font-family: Shabnam;
+    padding: 0px;
+    margin: 0px;
+}
+.button-g {
+    border-radius: 15px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+}
