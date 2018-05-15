@@ -1,0 +1,180 @@
+.chatbar-fixed {
+    position: fixed;
+    /* margin-right: 100px; */
+    bottom: 0;
+    width: 200px;
+    background-color: rgb(23, 85, 183);
+    border-radius: 20px 20px 0px 0px;
+}
+.chatbar-fixed:hover {
+    cursor: pointer;
+}
+.chatbar {
+    display: flex;
+}
+.chat-icon {
+    flex: 1;
+    width: 30px;
+    height: 40px;
+    margin: 10px;
+}
+.chatbar-text {
+    flex: 3;
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    margin-top: 18px;
+}
+.chat-fixed{
+    position: fixed;
+    display: none;
+    flex-direction: column;
+    bottom: 0;
+    width: 350px;
+    height: 450px;
+    background-color: rgb(23, 85, 183);
+    border-radius: 20px 20px 0px 0px !important;
+}
+.chat-fixed-up{
+    flex: 20%;
+    display: flex;
+    
+}
+.chat-fixed-up-img {
+    flex: 20%;
+}
+.chat-contact-img {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-right: 17px;
+    margin-left: 5px;
+    border-radius: 50%;
+}
+.chat-fixed-up-contact-name{
+    flex: 70%;
+    margin-top: 25px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+.chat-menu-img{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    /* background-color: rgb(160, 160, 160); */
+    border-radius: 20px;
+}
+.chat-menu-img:hover{
+    cursor: pointer;
+}
+.chat-fixed-up-icon{
+    flex: 10%;
+}
+.chat-fixed-mid{
+    flex: 68%;
+    border-radius: 20px 20px 0px 0px;
+    background-color: rgb(220, 220, 220);
+    overflow: scroll;
+}
+.chat-support{
+    display: flex;
+}
+.chat-support-img {
+    flex: 20%;
+}
+.support-img-send {
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.chat-support-text {
+    flex: 80%;
+}
+.support-text-send {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 200px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 25px;
+    padding: 10px;
+    font-size: 13px;
+}
+.support-text-date {
+    margin-right: 15px;
+    margin-top: 5px;
+    margin-left: 45px;
+    font-size: 10px;
+    color: rgb(40, 40, 40);
+    float: left;
+}
+.chat-customer{
+    display: flex;
+}
+.chat-customer-img {
+    flex: 20%;
+}
+.customer-img-send {
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.chat-customer-text {
+    flex: 80%;
+}
+.customer-text-send {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 25px;
+    padding: 10px;
+    font-size: 13px;
+    float: left;
+}
+.customer-text-date {
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-right: 45px;
+    font-size: 10px;
+    float: right;
+    color: rgb(40, 40, 40);
+}
+
+.chat-fixed-down{
+    flex: 12%;
+    background-color: rgb(220, 220, 220);
+    border: 3px solid rgb(200, 200, 200);
+}
+.chat-textfield{
+    border: 1px solid rgb(250, 250, 250);
+    border-radius: 0 10px 10px 0;
+    vertical-align: middle;
+    width: 246px;
+    margin: 6px 10px 6px -5px;
+    padding: 12px 15px;
+    font-size: 16px;
+}
+.chat-textfield:focus {
+    outline-width: 0px;
+}
+.chat-send{
+    display: inline-block;
+    background: url(../pics/send.png) no-repeat 7px 7px;
+    background-color: rgb(255, 255, 255);
+    vertical-align: middle;
+    border-radius: 10px 0 0 10px;
+    background-size: 34px;
+    width: 34px;
+    height: 34px;
+    padding: 7px;
+}
+.chat-send:hover{
+    cursor: pointer;
+}
